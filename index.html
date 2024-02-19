@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h2 style="color: black" style="font-size: xx-large;">Calculate some Arithmetic operations here.</h2>
+  
+  <form action="">
+    <div>
+    <label for="num1">Enter first number:</label><br><br>
+    <input type="text" id="num1" placeholder="Enter a number"><br><br>
+    <label for="num2">Enter second number:</label><br><br>
+    <input type="text" id="num2" placeholder="Enter a number"><br><br></div>
+    <div>
+    <select id="operation" style="background-color: orangered; color: white;">
+      <option id="option"  value="">Operation</option>
+      <option value="add">Add</option>
+      <option value="subtract">Subtract</option>
+      <option value="multiply">Multiply</option>
+      <option value="divide">Divide</option>
+      <option value="modulus">Modulus</option>
+    </select><br><br>
+    <label for="">Click here to calculate:</label><br>
+    <input id="button" type="button" onclick="calculate()" value="calculate"> <br><br>
+    <label for="result">Result:</label><br>
+    <input type="text" style="color: white;" id="result"></div>
+  </form>
+  <script src="script.js"></script>
+</body>

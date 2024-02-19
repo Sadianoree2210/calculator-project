@@ -1,0 +1,47 @@
+
+
+form{
+  background-color: oldlace;
+  margin: 100px;
+  margin-top: 40px;
+  padding: 40px ;
+  display: flex;
+  justify-content: space-around;
+}
+body{
+  padding-top: 50px;
+  background-color: rgb(202, 198, 198);
+}
+input{
+  padding: 10px;
+  width: 320px;
+}
+select{
+  width: 300px;
+  height: 40px;
+margin-top: 20px;
+border-radius: 5px;
+}
+#button{
+  width: 300px;
+  height:40px ;
+  background-color: rgb(17, 0, 255);
+  color: white;
+  border: none;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+#result{ 
+  width: 275px;
+  background-color: rgb(189, 57, 57);
+  color: white;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+#option{
+  text-align: center;
+}
+h2{
+  margin-top: 90px;
+  margin-left: 95px;
+}
